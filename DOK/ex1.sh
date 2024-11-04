@@ -21,5 +21,11 @@ Using docker start a nginx container by pulling it down from docker hub
 
 }
 
+e1() {
+    echo -e "${RE}Executing command...${NC}"
+    $cm1
+}
+
 # Execution sequence
 b1
+e1

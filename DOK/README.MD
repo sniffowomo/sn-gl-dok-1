@@ -2,6 +2,7 @@
 2. [Resources](#resources)
 3. [Notezina](#notezina)
 4. [Related Repo](#related-repo)
+5. [Important Commands](#important-commands)
 
 # DOK
 
@@ -24,3 +25,10 @@ https://github.com/BretFisher/udemy-docker-mastery
 https://gitlab.com/weibdeiv/sn-dok-1-1
 
 - This repo is going for running and interacting with docker
+
+# Important Commands 
+
+comms | What 
+--- | --- 
+`docker container run --publish 80:80 nginx --detached` | Running the `nginx` container in detached mode,if its not present locally it will be dowloaded 
+`docker container stop e63` | Stopping the `nginx` container you need to provide just the first few digits of the container id and it will be removed
