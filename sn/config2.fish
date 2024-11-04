@@ -2,8 +2,13 @@
 # You will call i for writing wih this code
 # curl https://snips.sh/f/leQYOwBiIc > ~/.config/fish/config.fish
 starship init fish | source
-starship preset pure-preset > ~/.config/starship.toml
+starship preset pure-preset >~/.config/starship.toml
 # --- This section is for fish --- #
+
+#--- Setting homebew ---
+echo '# Set PATH, MANPATH, etc., for Homebrew.' >>/home/codespace/.profile
+echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >>/home/codespace/.profile
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # eza
 alias e="eza -lahHo --git --git-repos --icons --color-scale --color-scale-mode=gradient --color=always --group-directories-first --time-style=long-iso --total-size"
@@ -19,6 +24,3 @@ alias gsb="gb && git switch"
 alias gpp="git add . && git commit --allow-empty --allow-empty-message && git push --progress"
 alias pd="pnpm run dev --turbo"
 alias gor="go run"
-
-
-
