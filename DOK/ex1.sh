@@ -26,6 +26,15 @@ e1() {
     $cm1
 }
 
+e2() {
+    clear
+    c2='docker container run --publish 80:80 --detach --name pantysmell nginx'
+    echo -e "${BL}Executing command...${NC}"
+    echo -e "$c2"
+
+    $c2
+}
+
 # Execution sequence
-b1
-e1
+
+e2

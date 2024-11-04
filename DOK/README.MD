@@ -32,3 +32,5 @@ comms | What
 --- | --- 
 `docker container run --publish 80:80 nginx --detached` | Running the `nginx` container in detached mode,if its not present locally it will be dowloaded 
 `docker container stop e63` | Stopping the `nginx` container you need to provide just the first few digits of the container id and it will be removed
+`docker container run --publish 80:80 --detach --name pantysmell nginx` | Here we are naming the host container as `pantysmell` the best smell
+`docker container logs` | Viewing the logs of the container, which are not visible when starting in detached mode
