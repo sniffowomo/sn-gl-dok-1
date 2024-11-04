@@ -1,0 +1,14 @@
+version: '3.3'
+
+services:
+  class-02-services:
+    build: .
+    stop_grace_period: 0s
+    container_name: scl-class-02-services
+    networks:
+      playground-net:
+        ipv4_address: 172.20.0.88
+
+networks:
+  playground-net:
+    external: true

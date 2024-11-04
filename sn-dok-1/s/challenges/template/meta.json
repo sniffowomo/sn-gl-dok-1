@@ -1,0 +1,20 @@
+{
+    "name": "Just a template",
+    "id": "challenge_template_id",
+    "difficulty": "easy",
+    "description": "",
+    "tasks": [
+      { 
+        "id": "task1",
+        "name": "Some Task Name 1",
+        "description": "Something",
+        "flag": "BSY{...}" 
+      },
+      {
+        "id": "task2",
+        "name": "Some Task Name 2",
+        "description": "Something",
+        "flag": "BSY{...}"
+      }
+    ]
+  }  

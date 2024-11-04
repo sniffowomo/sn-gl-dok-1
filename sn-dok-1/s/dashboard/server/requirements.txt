@@ -1,0 +1,6 @@
+quart
+flask
+flask-socketio
+eventlet
+paramiko
+ollama
