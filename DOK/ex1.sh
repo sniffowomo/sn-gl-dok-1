@@ -35,6 +35,16 @@ e2() {
     $c2
 }
 
+# WWorkign with mongo image
+e3() {
+    clear
+    c2='docker run --name mongo -d mongo:latest'
+    echo -e "${BL}Executing command... Working with mongo image${NC}"
+    echo -e "$c2"
+
+    $c2
+}
+
 # Execution sequence
 
-e2
+e3
