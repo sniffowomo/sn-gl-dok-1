@@ -59,3 +59,5 @@ comms | What
 `docker container port <name>` | Will list out the ports open for the container image
 ` docker container inspect --format '{{.NetworkSettings.IPAddress}}'` | Get the ip of the container , by default 
 `docker network ls` | List out the networks in the docker
+`docker network inspect` | Similar to `docker container inspect` you can see which containers are attached to your bridge - "Subnet": "172.17.0.0/16", "Gateway": "172.17.0.1" , note the default ip range will be 172.17.*.* for docker 
+`docker network create m_app_net` | Create a new network , bu default it will connect to bridge network

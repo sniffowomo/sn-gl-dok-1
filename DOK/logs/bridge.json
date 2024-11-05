@@ -1,0 +1,52 @@
+[
+    {
+        "Name": "bridge",
+        "Id": "7ed60ffcde3215971c5735635bbf21e32ff8b17c81ea9d5de1b261580b27f2a0",
+        "Created": "2024-11-05T15:31:49.931093504Z",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.17.0.0/16",
+                    "Gateway": "172.17.0.1"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "22a24217edde549243df9d058136b25f79ac952a0872865da9023b6f750e25e0": {
+                "Name": "ng",
+                "EndpointID": "5c3658ddcf0ac0c2fcdd6484900e0a028d81b0e9075a31bfd744d4140cf9bda7",
+                "MacAddress": "02:42:ac:11:00:02",
+                "IPv4Address": "172.17.0.2/16",
+                "IPv6Address": ""
+            },
+            "2805ee6266f08ef2722c38859bf70702627020133408579e154de965767096f6": {
+                "Name": "my",
+                "EndpointID": "2e87284ee8384450c7ada3ee65b301e18d77bc4ca1cd30e051ad41224e1d313d",
+                "MacAddress": "02:42:ac:11:00:03",
+                "IPv4Address": "172.17.0.3/16",
+                "IPv6Address": ""
+            }
+        },
+        "Options": {
+            "com.docker.network.bridge.default_bridge": "true",
+            "com.docker.network.bridge.enable_icc": "true",
+            "com.docker.network.bridge.enable_ip_masquerade": "true",
+            "com.docker.network.bridge.host_binding_ipv4": "0.0.0.0",
+            "com.docker.network.bridge.name": "docker0",
+            "com.docker.network.driver.mtu": "1500"
+        },
+        "Labels": {}
+    }
+]
