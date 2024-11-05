@@ -13,6 +13,7 @@ NC='\e[0m' # No Color
 # cm3='docker container run -it --name ub leplusorg/kali:latest bash'
 # cm4='docker container run -it --name kl kasmweb/core-kali-rolling bash'
 # cm5='docker container run -it --name al alpine sh'
+cm6='docker container run -p 80:80 --name wh -d nginx'
 
 # commands
 b1() {
@@ -31,9 +32,9 @@ e1() {
     # echo -e "${RE} $cm2 ${NC}"
     # echo -e "${RE} $cm2 ${NC}"
     # echo -e "${RE} $cm3 ${NC}"
-    echo -e "${RE} $cm5 ${NC}"
+    echo -e "${RE} $cm6 ${NC}"
     echo -e "${GR} ---START-START-START-START-START------ ${NC}"
-    $cm5
+    $cm6
     echo -e "${BL} --------------------------------- ${NC}"
     # $cm4
     echo -e "${RE} ---DONE-DONE-DONE-DONE------ ${NC}"
