@@ -8,7 +8,7 @@ BL='\e[0;34m'
 NC='\e[0m' # No Color
 
 # Variables
-cm1='docker run --rm -ti --network host -v $PWD/panty:/panty parrotsec/security'
+cm1="docker run --rm -ti --network host -v $PWD/panty:/panty parrotsec/security"
 
 # commands
 b1() {

@@ -58,3 +58,4 @@ comms | What
 `-p host:container` | Need to remember this standard config, when defining the ports 
 `docker container port <name>` | Will list out the ports open for the container image
 ` docker container inspect --format '{{.NetworkSettings.IPAddress}}'` | Get the ip of the container , by default 
+`docker network ls` | List out the networks in the docker
