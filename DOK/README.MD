@@ -40,3 +40,5 @@ comms | What
 `docker container ls` | View all he docker containers
 `docker container inspect <name>` | JSON Array of docker startuo config data
 `docker container stats` | View stats of all containers
+`docker container run -it` | Start a new containter interactively 
+`docker container exec -it`| Run additional command in existing container
