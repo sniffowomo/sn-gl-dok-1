@@ -9,9 +9,9 @@ NC='\e[0m' # No Color
 
 # Variables
 # cm1='docker container run -it --name proxy nginx:latest bash'
-# cm2='docker container run -it --name ub ubuntu:latest bash'
+cm2='docker container run -it --name ub ubuntu:latest bash'
 # cm3='docker container run -it --name ub leplusorg/kali:latest bash'
-cm4='docker container run -it --name kl kasmweb/core-kali-rolling bash'
+# cm4='docker container run -it --name kl kasmweb/core-kali-rolling bash'
 
 # commands
 b1() {
@@ -27,13 +27,13 @@ b1() {
 e1() {
     echo -e "${RE}Executing command...${NC}"
     # echo -e "${RE} $cm1 ${NC}"
-    # echo -e "${RE} $cm2 ${NC}"
+    echo -e "${RE} $cm2 ${NC}"
     # echo -e "${RE} $cm3 ${NC}"
-    echo -e "${RE} $cm4 ${NC}"
+    # echo -e "${RE} $cm4 ${NC}"
     echo -e "${GR} ---START-START-START-START-START------ ${NC}"
-    # $cm1
+    $cm2
     echo -e "${BL} --------------------------------- ${NC}"
-    $cm4
+    # $cm4
     echo -e "${RE} ---DONE-DONE-DONE-DONE------ ${NC}"
 }
 

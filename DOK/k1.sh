@@ -20,7 +20,7 @@ Core Kali Rolling
 -------------------------------------------------------
 '
 
-c1='docker run --rm -it --shm-size=512m -p 8080:80 -e VNC_PW=password kasmweb/core-kali-rolling:1.16.0
+c1='sudo docker run --rm -it --shm-size=512m -p 6901:6901 -e VNC_PW=password kasmweb/core-kali-rolling:1.16.0
 '
 
 # Commands and banners
