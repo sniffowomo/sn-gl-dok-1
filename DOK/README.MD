@@ -55,3 +55,4 @@ comms | What
 `docker container exec -it`| Run additional command in existing container
 `docker container start -ai <name>` | You need these switches to get back into the server which is alredy downloaded 
 `docker pull alpine` | Here the docker is pulling the image down to the machine but not running the container, this container you have to run with `docker container run --name alpine alpine`
+`-p host:container` | Need to remember this standard config, when defining the ports 
