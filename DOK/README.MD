@@ -2,7 +2,8 @@
 2. [Resources](#resources)
 3. [Notezina](#notezina)
 4. [Related Repo](#related-repo)
-5. [Important Commands](#important-commands)
+5. [Fundamental Concetps](#fundamental-concetps)
+6. [Important Commands](#important-commands)
 
 # DOK
 
@@ -26,6 +27,16 @@ https://gitlab.com/weibdeiv/sn-dok-1-1
 
 - This repo is going for running and interacting with docker
 
+# Fundamental Concetps
+
+```mermaid
+%%{init: {'theme':'dark', 'themeVariables':{'textColor':'#FBB454', 'nodeBorder':'#00D7FF', 'lineColor':'#00FFAB'}}}%% 
+
+graph LR;
+    A[Image]-- One <br> Image <br> containers -->B[Containers];
+    
+```
+
 # Important Commands 
 
 comms | What 
@@ -42,3 +53,4 @@ comms | What
 `docker container stats` | View stats of all containers
 `docker container run -it` | Start a new containter interactively 
 `docker container exec -it`| Run additional command in existing container
+`docker container start -ai <name>` | You need these switches to get back into the server which is alredy downloaded 
