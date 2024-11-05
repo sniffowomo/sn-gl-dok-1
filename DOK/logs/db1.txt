@@ -1,0 +1,15 @@
+2024-11-05 10:20:34+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 9.1.0-1.el9 started.
+2024-11-05 10:20:34+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+2024-11-05 10:20:34+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 9.1.0-1.el9 started.
+2024-11-05 10:20:34+00:00 [Note] [Entrypoint]: Initializing database files
+2024-11-05 10:20:45+00:00 [Note] [Entrypoint]: Database files initialized
+2024-11-05 10:20:45+00:00 [Note] [Entrypoint]: Starting temporary server
+2024-11-05 10:20:47+00:00 [Note] [Entrypoint]: Temporary server started.
+'/var/lib/mysql/mysql.sock' -> '/var/run/mysqld/mysqld.sock'
+2024-11-05 10:20:52+00:00 [Note] [Entrypoint]: GENERATED ROOT PASSWORD: MGC8RC4cL0fAnVR7+4rEhZ7i/DMsaCV/
+
+2024-11-05 10:20:52+00:00 [Note] [Entrypoint]: Stopping temporary server
+2024-11-05 10:20:54+00:00 [Note] [Entrypoint]: Temporary server stopped
+
+2024-11-05 10:20:54+00:00 [Note] [Entrypoint]: MySQL init process done. Ready for start up.
+
