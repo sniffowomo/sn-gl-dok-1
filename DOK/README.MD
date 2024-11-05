@@ -37,3 +37,4 @@ comms | What
 `docker container top pantysmell` | Viewing the running processes of the container, note that you can also view these wtih `ps afx` which is the standard linux command to view processes
 `docker container rm asx fsd asd` | Here we are going to remove three containers at the same time, note if they are running they wont be deleted 
 `docker container rm -rf asx` | Will forefully shutdown contianer and then remove it
+`docker container ls` | View all he docker containers
