@@ -9,7 +9,7 @@ NC='\e[0m' # No Color
 
 # Variables
 # cm1='docker container run -it --name proxy nginx:latest bash'
-cm2='docker container run -it --name ub ubuntu:latest bash'
+cm2='docker container run --rm -it --name ub ubuntu:latest bash'
 # cm3='docker container run -it --name ub leplusorg/kali:latest bash'
 # cm4='docker container run -it --name kl kasmweb/core-kali-rolling bash'
 
