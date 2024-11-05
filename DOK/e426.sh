@@ -8,7 +8,8 @@ BL='\e[0;34m'
 NC='\e[0m' # No Color
 
 # Variables
-cm1='docker container run -it --name proxy nginx:latest bash'
+# cm1='docker container run -it --name proxy nginx:latest bash'
+cm1='docker container run -it --name ub ubuntu:latest bash'
 
 # commands
 b1() {
@@ -23,10 +24,12 @@ b1() {
 
 e1() {
     echo -e "${RE}Executing command...${NC}"
-    echo -e "${RE} $cm1 ${NC}"
+    # echo -e "${RE} $cm1 ${NC}"
+    echo -e "${RE} $cm2 ${NC}"
     echo -e "${GR} ---START-START-START-START-START------ ${NC}"
-    $cm1
+    # $cm1
     echo -e "${BL} --------------------------------- ${NC}"
+    $cm2
     echo -e "${RE} ---DONE-DONE-DONE-DONE------ ${NC}"
 }
 
