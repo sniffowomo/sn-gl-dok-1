@@ -38,3 +38,5 @@ comms | What
 `docker container rm asx fsd asd` | Here we are going to remove three containers at the same time, note if they are running they wont be deleted 
 `docker container rm -rf asx` | Will forefully shutdown contianer and then remove it
 `docker container ls` | View all he docker containers
+`docker container inspect <name>` | JSON Array of docker startuo config data
+`docker container stats` | View stats of all containers
