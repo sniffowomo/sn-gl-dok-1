@@ -56,3 +56,5 @@ comms | What
 `docker container start -ai <name>` | You need these switches to get back into the server which is alredy downloaded 
 `docker pull alpine` | Here the docker is pulling the image down to the machine but not running the container, this container you have to run with `docker container run --name alpine alpine`
 `-p host:container` | Need to remember this standard config, when defining the ports 
+`docker container port <name>` | Will list out the ports open for the container image
+` docker container inspect --format '{{.NetworkSettings.IPAddress}}'` | Get the ip of the container , by default 
